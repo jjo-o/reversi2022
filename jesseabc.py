@@ -2,7 +2,7 @@ from .reversi import *
 
 class AI(GameAI):
   def name(self):
-    return 'Jesse123'
+    return '023AI'
 
   def play(self, board, color):
     for y in range(board.N):
